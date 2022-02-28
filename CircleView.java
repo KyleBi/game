@@ -55,7 +55,6 @@ public class CircleView extends View {
         init(context, attrs);
     }
 
-//todo something
     private void init(Context context, @Nullable AttributeSet attrs) {
         float density = context.getResources().getDisplayMetrics().density;
         mTextSize = TEXT_SIZE * density;
