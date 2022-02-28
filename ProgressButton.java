@@ -46,6 +46,7 @@ public class ProgressButton extends View {
         init(context, attrs);
     }
 
+   // it is a test
     private void init(Context context, @Nullable AttributeSet attrs) {
         mTextPaint.setAntiAlias(true);
         mTextPaint.setColor(Color.BLUE);
