@@ -19,6 +19,7 @@ import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.List;
 
+//todo
 public class CircleView extends View {
 
     private int mTemperature = 17;
@@ -55,6 +56,7 @@ public class CircleView extends View {
         init(context, attrs);
     }
 
+//TODO
     private void init(Context context, @Nullable AttributeSet attrs) {
         float density = context.getResources().getDisplayMetrics().density;
         mTextSize = TEXT_SIZE * density;
